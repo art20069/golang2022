@@ -15,3 +15,6 @@ Content-Type: application/json
     "username":"art99",
     "password":"1234"
 }
+
+### Register API localhost
+POST https://localhost:8080/api/v2/register HTTP/1.1

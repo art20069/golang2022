@@ -22,6 +22,4 @@ func main() {
 		fmt.Println("Environment Port:" + port)
 		router.Run(":" + port)
 	}
-	router.Run(":8081")
-
 }
