@@ -6,12 +6,12 @@ GET  http://localhost:8080/api/v2/product HTTP/1.1
 
 
 ### Get with Token
-GET http://localhost:8081/api/v2/product HTTP/1.1
+GET http://localhost:8080/api/v2/product HTTP/1.1
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDI0MDAzMDUsImlkIjo4LCJsZXZlbCI6Im5vcm1hbCIsInVzZXJuYW1lIjoiYXJ0MTEifQ.XSD_Rx2kP8aSUz3HVONlJndlB7kBAk64Iz8zOnlJkl0
 ### GET ByID
-GET  http://localhost:8081/api/v2/product/222 HTTP/1.1
+GET  http://localhost:8080/api/v2/product/222 HTTP/1.1
 ### GET with keyword
-GET  http://localhost:8081/api/v2/product?keyword=Edit HTTP/1.1
+GET  http://localhost:8080/api/v2/product?keyword=Edit HTTP/1.1
 
 
 
