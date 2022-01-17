@@ -39,7 +39,8 @@ func getProduct(c *gin.Context) {
 		keyword = fmt.Sprintf("%%%s%%", keyword)
 		db.GetDB().Where("name like?", keyword).Find(&product)
 	} else {
-		db.GetDB().Find(&product)
+		// db.GetDB().Find(&product)
+		db.GetDB().Order("id").Find(&product)
 	}
 	c.JSON(200, product)
 }

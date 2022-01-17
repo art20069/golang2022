@@ -1,6 +1,6 @@
 
 ### GET 
-GET  http://localhost:8080/api/v2/product HTTP/1.1
+GET  https://glang-devcr1.herokuapp.com/api/v2/product HTTP/1.1
 
 
 
@@ -17,14 +17,14 @@ GET  http://localhost:8080/api/v2/product?keyword=Edit HTTP/1.1
 
 
 ### Create
-POST   http://localhost:8081/api/v2/product HTTP/1.1
+POST   https://glang-devcr1.herokuapp.com/api/v2/product HTTP/1.1
 Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDI0MDAzMDUsImlkIjo4LCJsZXZlbCI6Im5vcm1hbCIsInVzZXJuYW1lIjoiYXJ0MTEifQ.XSD_Rx2kP8aSUz3HVONlJndlB7kBAk64Iz8zOnlJkl0
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
 
 ------WebKitFormBoundary7MA4YWxkTrZu0gW
 Content-Disposition: form-data; name="name";
 
-Arduino board5555
+Narkorn chaiwong222
 ------WebKitFormBoundary7MA4YWxkTrZu0gW
 Content-Disposition: form-data; name="stock";
 
