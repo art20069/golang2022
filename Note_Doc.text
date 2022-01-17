@@ -14,3 +14,9 @@ https://gorm.io/docs/query.html
 -- View logs in heroku ---
 1. https://devcenter.heroku.com/articles/heroku-cli
 2. heroku logs --tail --app cmgostock
+
+-- Log Heroku Command --
+1. heroku logs --tail --app golang2022
+
+-- SET PORT for windows --
+command : set PORT=808x
