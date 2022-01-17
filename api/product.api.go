@@ -40,7 +40,7 @@ func getProduct(c *gin.Context) {
 		db.GetDB().Where("name like?", keyword).Find(&product)
 	} else {
 		// db.GetDB().Find(&product)
-		db.GetDB().Order("id").Find(&product)
+		db.GetDB().Order("id desc").Find(&product)
 	}
 	c.JSON(200, product)
 }

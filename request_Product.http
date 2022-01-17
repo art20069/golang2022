@@ -1,6 +1,8 @@
 
-### GET 
+### GET_heruku
 GET  https://glang-devcr1.herokuapp.com/api/v2/product HTTP/1.1
+### GET_local
+GET  https://localhost:8085/api/v2/product HTTP/1.1
 
 
 
